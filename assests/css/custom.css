@@ -1,0 +1,142 @@
+
+
+/*Index Page*/
+body{ background-image:url(../images/header.jpg)} 
+
+@font-face{
+		font-family:myfont1;
+		src:url(../fonts/Cinzel-Bold.ttf);
+		}
+		
+.font1{font-family:myfont1;}
+
+h1{ color:#175A3B}
+
+p{ text-align:justify}
+
+footer .fa{ font-size:16px; color:#999}
+
+a:hover{ text-decoration:none}
+
+.navbar-inverse{ border-radius:0px; background-color: #373435; border-color: #373435; z-index:1;
+	border-top:5px solid #175A3B; 
+	margin-top:0px; 
+	margin-right:15%; 
+	margin-left:15%}
+
+.navbar-inverse .navbar-nav>li>a{ color:#FFF}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{ 
+	color:#FFF; 
+	background-color:#175A3B;
+}
+
+.myfa{ font-size:45px}
+
+.mybtn{margin-left:15%; margin-top:1%}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #175A3B;
+}
+
+.dropdown-menu{  background-color: #373435; color: #fff;}
+
+.dropdown-menu{ border-left:5px solid #175A3B;}
+
+.dropdown-menu>li>a{ color:#FFF; padding: 12px 20px;}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+   background-color: #175A3B; 
+   color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #175A3B;
+}
+
+.nav>li>a { position: relative; display: block; padding: 15px 15px; font-size:14px; }
+
+.navbar-brand{ padding: 15px 15px; }
+
+.container .jumbotron, .container-fluid .jumbotron{ border-radius:0px}
+
+.btn-success{ background-color:#175A3B; color:#FFF; border-radius:0px; border-color:#175A3B}
+
+.btn-success:hover{background-color:#a6843e; color:#FFF; border-radius:0px; border-color:#a6843e}
+
+.btn-success:visited{background-color:#175A3B; color:#FFF; border-radius:0px; border-color:#175A3B}
+
+.btn-success:focus{background-color:#a6843e; color:#FFF; border-radius:0px; border-color:#a6843e}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #175A3B;
+}
+
+.nav-pills>li>a {
+	background-color:#eee; color:#000;
+	}
+	
+
+footer{ background-image:url(../images/search-header.jpg); color:#FFF}
+
+footer p{ font-size:12px; text-align:justify}
+
+footer a{ color:#FFF; text-decoration:none}
+footer a:hover{ color:#FFF; text-decoration:none}
+footer a:focus{ color:#FFF; text-decoration:none}
+footer a:visited{ color:#FFF; text-decoration:none}
+
+footer .fa{ font-size:40px}
+
+footer .fa:hover{ color:#FFF}
+
+footer ul     	     {
+		list-style: none;
+		margin-left:0px;
+		padding-left:0px;
+	     }
+
+footer ul li:before {
+		content: "\00BB \0020";
+	     }
+		 
+#news ol     	     {
+		list-style: none;
+		margin-left:0px;
+		padding-left:0px;
+	     }
+
+#news ol li:before {
+		content: "\00BB \0020";
+	     }
+		 
+		 
+		
+
+@media (max-width: 768px) {
+	.navbar-inverse{  
+		margin-right:0px !important; 
+		margin-left:0px !important;
+	}
+	
+	.mybtn{margin-left:0%; margin-top:0%;}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.navbar-inverse{  
+		margin-right:0px !important;  
+		margin-left:0px !important;
+	}
+	
+	.mybtn{margin-left:0%; margin-top:0%;}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+}
